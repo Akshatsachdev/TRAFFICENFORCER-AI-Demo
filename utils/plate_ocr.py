@@ -8,8 +8,7 @@ import os
 from typing import Union
 
 # Initialize PaddleOCR once (global)
-ocr = PaddleOCR(use_angle_cls=True, lang='en', use_gpu=False)
-
+ocr = PaddleOCR(use_angle_cls=True, lang='en')
 # File paths - constants
 CHALLAN_FILE = "data/challan_details.xlsx"
 DATA_DIR = "data"
